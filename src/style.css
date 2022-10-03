@@ -1,0 +1,108 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: lightgray;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.outsideContainer {
+  width: 100%;
+  background-color: lightgray;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainContainer,
+.listContainer,
+.clearAll {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.listContainer {
+  width: 100%;
+}
+
+.clearAll {
+  width: 40%;
+}
+
+.mainContainer {
+  background-color: white;
+  width: 40%;
+}
+
+.list,
+.listinputbox,
+.listitem {
+  display: flex;
+  width: 95%;
+  border: 1px solid lightgray;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.listinputbox,
+.listheading {
+  padding: 2% 0 2% 0;
+}
+
+.listitem {
+  padding: 2% 0 2% 0;
+}
+
+.listinput {
+  border: none;
+  outline: none;
+  width: 100%;
+  height: 100%;
+  padding: 2%;
+}
+
+.clearallButton {
+  width: 100%;
+  color: grey;
+  cursor: pointer;
+  padding: 4%;
+}
+
+.listitemIcon {
+  display: flex;
+  gap: 1rem;
+}
+
+.listitemIcon > i {
+  cursor: pointer;
+}
+
+.listitemleft {
+  width: 80%;
+  display: flex;
+  gap: 2%;
+  padding: 0;
+  margin: 0;
+}
+
+input[type="checkbox"] {
+  height: 20px;
+  width: 20px;
+  color: green;
+}
+
+.editing {
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+}
